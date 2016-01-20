@@ -1,0 +1,54 @@
+p {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.header{
+	width: 70%;
+	padding: 5px 125px;
+	margin: 20px 30px;
+	vertical-align: top;
+	text-align: justify;
+}
+
+.middle{
+	width: 70%;
+	margin: 1.5em auto;
+	-webkit-column-count: 4 inherit;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.linkbox {
+	width: 135px;
+	display: inline-block;
+	margin: 35px;
+}
+
+img {
+	width: 135px;
+	height: 150px;
+}
+
+.footer{
+
+}
+
+@media screen and (max-width: 325px) {
+	.middle {
+		width: 50%;
+	}
+	.header {
+		width: 100%;
+		padding: 25px;
+	}
+
+@media screen and (max-width: 750px) {
+	.middle { 
+		width: 75%;
+	}
+	.header {
+		width: 100%;
+		padding: 25px;
+	}
+
