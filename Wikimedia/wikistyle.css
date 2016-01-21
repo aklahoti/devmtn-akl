@@ -12,9 +12,9 @@ p {
 }
 
 .middle{
-	width: 70%;
+	/*width: 70%;*/
 	margin: 20px 30px;
-	padding-left: 150px;
+	padding-left: 50px;
 	-webkit-column-count: 4 inherit;
 	vertical-align: middle;
 	text-align: left;
@@ -38,8 +38,10 @@ img {
 	padding: 5px 125px;
 }
 
-.nowrap {
-	white-space: nowrap;
+.wrapper {
+	max-width: 64em;
+	margin: 0 auto;
+	padding: 0 1em;
 }
 
 li {
@@ -48,16 +50,11 @@ li {
 	margin-right: 10px;
 }
 
-@media screen and (max-width: 300px) {
-	body {
-		width: 100%;
+@media screen and (min-width: 48em) {
+	.wrapper{
+		padding: 0 1.5em;
 	}
-
-	.middle { 
-		width: 100%;
-		padding-left: 25px;
-	}
-
+}
 
 @media screen and (max-width: 100px) {
 	.footer {
