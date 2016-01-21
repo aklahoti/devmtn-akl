@@ -13,7 +13,8 @@ p {
 
 .middle{
 	width: 70%;
-	margin: 1.5em auto;
+	margin: 20px 30px;
+	padding-left: 150px;
 	-webkit-column-count: 4 inherit;
 	vertical-align: middle;
 	text-align: left;
@@ -30,25 +31,42 @@ img {
 	height: 150px;
 }
 
-.footer{
-
+.footer {
+	font-size: 12px;
+	width: 70%;
+	text-align: center;
+	padding: 5px 125px;
 }
 
-@media screen and (max-width: 325px) {
-	.middle {
-		width: 50%;
-	}
-	.header {
+.nowrap {
+	white-space: nowrap;
+}
+
+li {
+	display: inline;
+	font-family: sans-serif;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 300px) {
+	body {
 		width: 100%;
-		padding: 25px;
 	}
 
-@media screen and (max-width: 750px) {
 	.middle { 
-		width: 75%;
-	}
-	.header {
 		width: 100%;
-		padding: 25px;
+		padding-left: 25px;
 	}
+
+
+@media screen and (max-width: 100px) {
+	.footer {
+		width: 100%;
+	}
+
+	.middle {
+		width: 75%;
+		padding: 0;
+	}
+
 
