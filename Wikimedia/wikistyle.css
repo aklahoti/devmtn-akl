@@ -23,11 +23,11 @@ p {
 .linkbox {
 	width: 135px;
 	display: inline-block;
-	margin: 35px;
+	margin: 15px;
 }
 
 img {
-	width: 135px;
+	width: 165px;
 	height: 150px;
 }
 
@@ -52,7 +52,7 @@ li {
 
 @media screen and (min-width: 48em) {
 	.wrapper{
-		padding: 0 1.5em;
+		padding: 0 15%;
 	}
 }
 

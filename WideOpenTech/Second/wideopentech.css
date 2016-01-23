@@ -1,0 +1,135 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+.header {
+	height: 90%;
+	max-width: 100%;
+	background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+	background-size: 100% 100%;
+	margin: -7px;
+	position: relative;
+}
+
+.nav {
+	position: absolute;
+	height: 10%;
+	width: 70%;
+	background-color: transparent;
+	top: 5%;
+	padding-left: 200px;
+}
+
+.nav-item {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	margin: 0 15px 0 0;
+	color: #fff;
+	letter-spacing: 1px;
+
+}
+
+.logo {
+	height: 80%;
+	width: 25%;
+	margin-right: 5%;
+	background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-logo-whitex2.svg");
+	background-repeat: no-repeat;
+	border: transparent;
+}
+.maintext {
+	height: 50%;
+	width: 75%;
+	background-color: transparent;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+
+.main-item {
+	font-family: "Lato", sans-serif;
+	font-size: 152px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 0 0 0 10px;
+}
+
+.main-small {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	margin: 0;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.buttons {
+
+}
+
+.introduction{
+	height: 65%;
+	background-color: #F0F0F0;
+	margin: -7px;
+	position: relative;
+}
+
+.intro-text {
+	text-align: center;
+	color: #40666d;
+	max-width: 75%;
+	margin: 10px 0 0 35px;
+	padding: 35px 0 0 150px;
+	font-size: 23px;
+	font-family: "Lato", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+strong {
+	font-size: 25px;
+	font-weight: 350;
+}
+
+.second-intro {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	height: 35%;
+	width: 65%;
+	background-color: transparent;
+	font-size: 42px;
+	font-family: "Lato", sans-serif;
+	color: #40666d;
+	padding: 20px 0 0 175px;
+}
+
+em {
+	font-weight: bold;
+	color: #bbd537;
+	font-style: normal;
+}
+
+.opportunities {
+	height: 100%;
+	background-color: #fff;
+	font-size: 14px;
+	color: #8f8787;
+}
+
+.text-container {
+	height: 100%;
+	width: 30%;
+	border-left: 2px solid;
+	border-color: #8f8787;
+	display: inline-block;
+	background-color: transparent;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+}
+.text-box {
+	padding-top: 300px;
+	font-size: 18px;
+	font-weight: 300;
+}

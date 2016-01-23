@@ -1,0 +1,63 @@
+img {
+	max-width: 100%;
+	max-height: 75%;
+}
+
+p{
+	margin: 0;
+}
+
+.header {
+	position: relative;
+}
+
+.logo {
+	font-family: "Lato", sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	font-weight: normal;
+}
+
+.header .logo h1 small {
+	font-size: 22px;
+	display: block;
+	text-align: left;
+}
+
+.header .logo h1 span.main {
+	letter-spacing: 1px;
+    line-height: 140px;
+    width: 100%;
+    display: block;
+    margin: 0 0 20px 20px;
+    text-align: center;
+
+}
+
+.header .logo h1 span.sub {
+	height: 5px;
+	width: 15%;
+	background: #fff;
+	position: absolute;
+	left: 25px;
+	top: 200px;
+	display: block;
+}
+
+.main-container {
+
+}
+
+.companies {
+
+}
+
+.pictures {
+
+}
+
+.footer {
+
+}
